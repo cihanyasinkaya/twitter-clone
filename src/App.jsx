@@ -1,6 +1,6 @@
 import TwitterLogo from './components/assets/logos/twitter'
 import './App.css'
-
+import SideBar from './components/sidebar'
 function App() {
   return (
     <div className='bg-black'>
@@ -10,6 +10,7 @@ function App() {
             <ul>
               <li>
                 <TwitterLogo />
+                <SideBar />
               </li>
             </ul>
           </div>
