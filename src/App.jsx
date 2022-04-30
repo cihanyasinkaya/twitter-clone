@@ -22,7 +22,9 @@ function App() {
               </li>
             </ul>
           </div>
-          <div>03</div>
+          <div className='w-[291px] ml-[46%]'>
+
+          </div>
         </div>
       </div>
     </div>
