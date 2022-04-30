@@ -1,6 +1,6 @@
 import * as React from "react"
 
-const TwitterLogo = (props) => (
+const TwitterLogo = () => (
   <svg
     ariaHidden="true"
     className="fill-current white text-white w-8 m-2"
