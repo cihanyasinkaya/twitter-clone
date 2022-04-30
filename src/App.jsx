@@ -2,6 +2,7 @@ import TwitterLogo from './components/assets/logos/twitter'
 import './App.css'
 import SideBar from './components/sidebar'
 import Tweets from './components/tweets'
+import RightSideBar from './components/right-sidebar'
 function App() {
   return (
     <div className='bg-black'>
@@ -23,7 +24,7 @@ function App() {
             </ul>
           </div>
           <div className='w-[291px] ml-[46%]'>
-
+            <RightSideBar/>
           </div>
         </div>
       </div>
