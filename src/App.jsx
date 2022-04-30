@@ -33,7 +33,7 @@ function App() {
 
             </ul>
           </div>
-          <div className='w-[291px] ml-[46%]'>
+          <div className='w-[291px] ml-[66%] fixed'>
             <RightSideBar/>
           </div>
         </div>
