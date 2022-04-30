@@ -4,7 +4,7 @@ import Hasthag from "../assets/logos/home-sidebar/hasthag"
 const SideBar = () => (
 
   <aside class="w-64" aria-label="Sidebar">
-    <div class="overflow-y-auto py-4 px-3  rounded dark:bg-gray-800">
+    <div class="overflow-y-auto py-4 px-3 rounded">
       <ul class="space-y-2">
         <li>
           <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-orange-500 dark:hover:bg-black-200">
@@ -51,7 +51,7 @@ const SideBar = () => (
           </a>
         </li>
       </ul>
-      <div id="dropdown-cta" class="p-4 mt-6 bg-orange-400  rounded-lg dark:bg-blue-900" role="alert">
+      <div id="dropdown-cta" class="p-4 mt-6 bg-orange-400  rounded-lg" role="alert">
         <div class="flex items-center mb-3">
           <span class="text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-orange-200 dark:text-orange-900">Twitter Beta</span>
           <button type="button" class="ml-auto -mx-1.5 -my-1.5 bg-blue-50 text-blue-900 rounded-lg focus:ring-2 focus:ring-blue-400 p-1 hover:bg-blue-200 inline-flex h-6 w-6 dark:bg-blue-900 dark:text-blue-400 dark:hover:bg-blue-800" data-collapse-toggle="dropdown-cta" aria-label="Close">
