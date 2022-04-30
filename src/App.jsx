@@ -3,6 +3,7 @@ import './App.css'
 import SideBar from './components/sidebar'
 import Tweets from './components/tweets'
 import TweetsArea from './components/tweets/tweets-area'
+import RightSideBar from './components/right-sidebar'
 
 function App() {
   const animals = ["Dog", "Bird", "Cat", "Mouse", "Horse"];
@@ -33,7 +34,7 @@ function App() {
             </ul>
           </div>
           <div className='w-[291px] ml-[46%]'>
-
+            <RightSideBar/>
           </div>
         </div>
       </div>
