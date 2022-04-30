@@ -1,8 +1,8 @@
-
+import React, { useState, useRef, useEffect } from "react";
 import HomeIcon from "../assets/logos/home-sidebar/home"
 import Hasthag from "../assets/logos/home-sidebar/hasthag"
-const SideBar = () => (
 
+const SideBar = () => (
   <aside class="w-64" aria-label="Sidebar">
     <div class="overflow-y-auto py-4 px-3 rounded">
       <ul class="space-y-2">
@@ -50,8 +50,14 @@ const SideBar = () => (
             <span class="flex-1 ml-3 whitespace-nowrap text-white ">Sign Up</span>
           </a>
         </li>
+        <li>
+          <div className="flex justify-center mt-3">
+            <button 
+                 type="button" class="rounded-[20px] w-[300px] h-[50px] text-white bg-[#1d9bf0] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Tweetle</button>
+          </div>
+        </li>
       </ul>
-      <div id="dropdown-cta" class="p-4 mt-6 bg-orange-400  rounded-lg" role="alert">
+      <div id="dropdown-cta" class="p-4 mt-6 bg-orange-500  rounded-lg" role="alert">
         <div class="flex items-center mb-3">
           <span class="text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded ">Twitter Beta</span>
           <button type="button" class="ml-auto -mx-1.5 -my-1.5 bg-blue-50 text-blue-900 rounded-lg focus:ring-2 focus:ring-blue-400 p-1 hover:bg-blue-200 inline-flex h-6 w-6" data-collapse-toggle="dropdown-cta" aria-label="Close">
