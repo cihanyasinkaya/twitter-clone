@@ -7,12 +7,14 @@ import RightSideBar from './components/right-sidebar'
 
 import NavbarMobile from './components/mobil/navbar'
 import TweetsMobile from './components/mobil/tweets'
+import NavbarMobileBottom from './components/mobil/navbar-bottom'
 
 function App() {
   const animals = ["Dog", "Bird", "Cat", "Mouse", "Horse"];
   return (
     <div className='bg-black overflow-hidden'>
       <NavbarMobile />
+      <NavbarMobileBottom />
 
       {animals.map(_animal => (
         <TweetsMobile />
@@ -24,6 +26,7 @@ function App() {
               <li>
                 <TwitterLogo />
                 <SideBar />
+
               </li>
             </ul>
           </div>
