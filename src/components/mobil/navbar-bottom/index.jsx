@@ -1,5 +1,5 @@
 
-import HomeLogo from "../../assets/mobile/navMenuBottom/HomeLogo";
+import HomeLogo from "../../assets/mobile/navMenuBottom/homeLogo";
 import SearchLogo from "../../assets/mobile/navMenuBottom/searchLogo";
 import UsersLogo from "../../assets/mobile/navMenuBottom/usersLogo";
 import NotificationLogo from "../../assets/mobile/navMenuBottom/notificationLogo";
